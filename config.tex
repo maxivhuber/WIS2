@@ -1,0 +1,68 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[left=4cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[printonlyused]{acronym}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{xltabular}
+\usepackage{longtable}
+
+%Literaturverzeichniss im Inhaltsverzeichnis
+\usepackage[nottoc,numbib]{tocbibind}
+
+% Eineinhalbfacher Zeilenabstand
+\usepackage{setspace}
+\setstretch{1.5}
+%%
+
+%Hauptüberschriftgröße 14pt
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries}
+%%
+
+%Times New Roman
+\usepackage{times}
+%%
+
+%URL links
+\usepackage[breaklinks]{hyperref}
+%%
+
+%links
+\usepackage{xurl}
+%%
+
+% nicht einrücken nach Absatz
+\setlength{\parindent}{0pt}
+%%
+
+%Einstellung Kopf und Fußzeile
+\usepackage{fancyhdr}
+\pagestyle{plain}
+%%
+
+% Fußnotenzeilenabstand
+\setlength{\footnotesep}{0.32mm}
+%%
+
+% Fußnotengröße
+\renewcommand{\footnotesize}{\fontsize{8pt}{10pt}\selectfont}
+%%
+
+%Speicherort für Grafiken
+\graphicspath{{img/}}
+%%
+
+%Abkürzungsverzeichniss
+\usepackage[automake,toc,acronym]{glossaries}
+\makeglossaries
+%%
